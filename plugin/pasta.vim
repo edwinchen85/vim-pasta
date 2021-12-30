@@ -58,7 +58,8 @@ endfunction
 
 if !exists("g:pasta_disabled_filetypes")
   let g:pasta_disabled_filetypes = ["python", "coffee", "markdown",
-        \"yaml", "slim", "nerdtree", "netrw", "startify", "ctrlp"]
+        \"yaml", "slim", "nerdtree", "netrw", "startify", "ctrlp",
+        \"dashboard", "fugitive", "nvimtree"]
 endif
 
 if !exists("g:pasta_paste_before_mapping")
